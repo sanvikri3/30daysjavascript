@@ -83,6 +83,25 @@ else{
 console.log(a<=b);
 
 //5
+console.log(4 == 4);   
+
+//6
+console.log(4 === 4);
+
+//7   
+console.log(4 != 4);   
+
+//8
+console.log(4 !== 4);
+
+//9   
+console.log(4 != '4');
+
+//10  
+console.log(4 == '4'); 
+
+//11
+console.log(4 === '4'); 
 
 //12
 const python = "python";
@@ -93,7 +112,6 @@ const falsyComparison = pythonLength === jargonLength;
 console.log("Length of 'python':", pythonLength);
 console.log("Length of 'jargon':", jargonLength);
 console.log("Falsy comparison statement:", falsyComparison);
-
 
 
 //ques 7
@@ -217,7 +235,6 @@ if(!(a1==='4'))
 console.log(!a1=='4');
 
 //11
-
 const dragon1 = "dragon";
 const python1 = "python";
 const dragonHasOn = dragon1.includes("on");
